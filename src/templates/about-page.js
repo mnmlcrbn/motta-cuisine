@@ -16,9 +16,9 @@ const AboutPage = ({data}) => {
         <meta name='description' content={post.frontmatter.meta_description} />
       </Helmet>
       <AboutPageTemplate
-        contentComponent={HTMLContent}
         title={post.frontmatter.title}
-        content={post.html}
+        ralph={post.frontmatter.ralph}
+        about_main={post.frontmatter.about_main}
       />
     </Layout>
   )
@@ -38,6 +38,8 @@ export const aboutPageQuery = graphql`
         title
         meta_title
         meta_description
+        ralph
+        about_main
       }
     }
   }

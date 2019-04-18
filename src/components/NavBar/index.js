@@ -15,7 +15,7 @@ const NavBar = ({toggleNavbar, isActive}) => (
         <div className='container'>
           <div className='navbar-brand'>
             <Link to='/' className='navbar-item'>
-              <strong>Gatsby Starter Business</strong>
+              Motta Cuisine
             </Link>
             <button
               className={`button navbar-burger ${isActive ? 'is-active' : ''}`}
@@ -36,6 +36,9 @@ const NavBar = ({toggleNavbar, isActive}) => (
               </Link>
               <Link className='navbar-item' to='/pricing'>
                               Services
+              </Link>
+              <Link className='navbar-item' to='/blog'>
+                              Showcase
               </Link>
               <Link className='navbar-item' to='/blog'>
                               Press

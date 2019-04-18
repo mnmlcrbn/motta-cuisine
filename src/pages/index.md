@@ -1,10 +1,9 @@
 ---
 templateKey: home-page
-title: Gatsby Starter Business
-heading: This is the homepage
+title: Motta Cuisine
+heading: Modern Crucian Cuisine
 description: >-
-  Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur,
-  adipisci velit...
+  Motta Cuisine is a boutique catering company located on the big island of St. Croix. Our company specializing in Wedding Catering, Private Chef Services and all types of Event Catering. We take pride in crafting unique dining experience for all of our clients no matter the budget.
 testimonials:
   - author: Vaibhav Sharma
     quote: >-
@@ -17,10 +16,9 @@ testimonials:
       dignissim ligula.  Lorem ipsum dolor sit amet, consectetur adipiscing
       elit.
 meta_title: Home | Motta Cuisine
+intro_img: /img/intro-img.jpg
+secondary_branding: /img/motta-new.png
 meta_description: >-
-  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
-  ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
-  venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis
-  consectetur purus sit amet fermentum.
+  Motta Cuisine is a boutique catering company located on the big island of St. Croix. Our company specializing in Wedding Catering, Private Chef Services and all types of Event Catering. We take pride in crafting unique dining experience for all of our clients no matter the budget.
 ---
 

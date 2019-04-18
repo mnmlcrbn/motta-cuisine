@@ -7,10 +7,11 @@ const HomePageTemplate = ({
   title,
   heading,
   description,
-  offerings,
+  intro_img,
   meta_title,
   meta_description,
   testimonials,
+  secondary_branding,
 }) => (
   <div>
     <Helmet>
@@ -19,26 +20,38 @@ const HomePageTemplate = ({
     </Helmet>
     <section className='section section--gradient'>
       <div className='container'>
-
-        <div className='section'>
-          <div className='columns'>
-            <div className='column is-10 is-offset-1'>
-              <div className='content'>
-                <div>
-                  <h3 className='has-text-weight-semibold is-size-2'>
-                    {heading}
-                  </h3>
-                  <p>{description}</p>
-                </div>
-              
-                <h2 className='has-text-weight-semibold is-size-2'>Testimonials</h2>
-                <Testimonials testimonials={testimonials} />
+        <h1 className='mc-intro__heading'>
+          {heading}
+        </h1>
+        <div className='columns'>
+          <div className='column is-6'>
+            <div className=''>
+              <div>
+                <p>{description}</p>
               </div>
             </div>
+          </div>
+          <div className='column is-4 is-offset-1'>
+            <img src={intro_img} />
           </div>
         </div>
       </div>
     </section>
+    <div className='mc-intro__secondary'>
+      <section className='section section--gradient'>
+        <div className='container'>
+          <div className='columns'>
+            <div className='column'>
+              <h2 className='is-size-2'>Testimonials</h2>
+              <hr />
+            </div>
+            <div className='column'>
+              <img src={secondary_branding} />
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
   </div>
 )
 
@@ -46,6 +59,8 @@ HomePageTemplate.propTypes = {
   title: PropTypes.string,
   meta_title: PropTypes.string,
   meta_description: PropTypes.string,
+  intro_img: PropTypes.string,
+  secondary_branding: PropTypes.string,
   heading: PropTypes.string,
   description: PropTypes.string,
   testimonials: PropTypes.array,

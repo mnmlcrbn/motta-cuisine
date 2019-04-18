@@ -3,7 +3,7 @@ import config from '../../../config'
 
 const Footer = () => {
   return (
-    <footer className='footer'>
+    <footer className='motta-footer'>
       <div className='container'>
         <div className='content'>
           <p>
