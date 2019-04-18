@@ -4,8 +4,6 @@ import {graphql} from 'gatsby'
 import {HTMLContent} from '../components/Content'
 import ArticleTemplate from '../components/ArticleTemplate'
 import SE0 from '../components/SEO'
-import Share from '../components/Share'
-import Disqus from '../components/Disqus'
 import Layout from '../components/Layout'
 
 const ArticlePage = ({data}) => {
@@ -32,16 +30,7 @@ const ArticlePage = ({data}) => {
                 tags={post.frontmatter.tags}
                 title={post.frontmatter.title}
               />
-              <Share
-                title={post.frontmatter.title}
-                slug={post.fields.slug}
-                excerpt={post.frontmatter.meta_description}
-              />
               <hr />
-              <Disqus
-                title={post.frontmatter.title}
-                slug={post.fields.slug}
-              />
             </div>
           </div>
         </div>
