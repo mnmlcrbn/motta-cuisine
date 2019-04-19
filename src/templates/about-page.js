@@ -18,7 +18,9 @@ const AboutPage = ({data}) => {
       <AboutPageTemplate
         title={post.frontmatter.title}
         ralph={post.frontmatter.ralph}
+        secondary_heading={post.frontmatter.secondary_heading}
         about_main={post.frontmatter.about_main}
+        about_callout={post.frontmatter.about_callout}
       />
     </Layout>
   )
@@ -40,6 +42,8 @@ export const aboutPageQuery = graphql`
         meta_description
         ralph
         about_main
+        about_callout
+        secondary_heading
       }
     }
   }

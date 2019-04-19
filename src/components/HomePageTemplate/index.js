@@ -27,7 +27,7 @@ const HomePageTemplate = ({
           <div className='column is-6'>
             <div className=''>
               <div>
-                <p>{description}</p>
+                <p className='mc-intro__copy'>{description}</p>
               </div>
             </div>
           </div>
