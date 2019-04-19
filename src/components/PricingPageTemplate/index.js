@@ -1,6 +1,5 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import Pricing from '../Pricing'
 import PropTypes from 'prop-types'
 
 const PricingPageTemplate = ({
@@ -25,7 +24,6 @@ const PricingPageTemplate = ({
                   {pricing.heading}
                 </h2>
                 <p className='is-size-5'>{pricing.description}</p>
-                <Pricing data={pricing.plans} />
               </div>
             </div>
           </div>
