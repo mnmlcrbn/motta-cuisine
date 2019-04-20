@@ -1,39 +1,11 @@
 import React, {Component} from 'react'
-import { navigate } from 'gatsby-link'
 import Helmet from 'react-helmet'
 import PropTypes from 'prop-types'
-
-const encode = (data) => {
-  return Object.keys(data)
-    .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
-    .join('&')
-}
 
 class ContactPageTemplate extends Component {
   constructor (props) {
     super(props)
     this.state = { isValidated: false }
-  }
-
-  handleChange = e => {
-    this.setState({ [e.target.name]: e.target.value })
-  }
-
-  handleSubmit = e => {
-    e.preventDefault()
-    const form = e.target
-    // eslint-disable-next-line
-    fetch('/?no-cache=1', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: encode({
-        'form-name': form.getAttribute('name'),
-        ...this.state,
-      }),
-    })
-      .then(() => navigate(form.getAttribute('action')))
-      // eslint-disable-next-line
-      .catch(error => alert(error))
   }
 
   render () {
