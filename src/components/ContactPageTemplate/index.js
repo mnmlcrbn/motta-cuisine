@@ -46,51 +46,25 @@ class ContactPageTemplate extends Component {
         </Helmet>
         <section className='section'>
           <div className='container'>
-            <form
-              name='contact'
-              method='post'
-              action='/contact/success'
-              encType='application/x-www-form-urlencoded'
-              data-netlify='true'
-              data-netlify-honeypot='bot-field'
-              onSubmit={this.handleSubmit}
-            >
-              <input type='hidden' name='form-name' value='contact' />
-              <div hidden>
-                <label>
-                  Don’t fill this out:{' '}
-                  <input name='bot-field' onChange={this.handleChange} />
-                </label>
-              </div>
-              <div className='field'>
-                <label className='label'>Name</label>
-                <div className='control'>
-                  <input className='input' type='text' placeholder='Full Name' name='name' id='name' onChange={this.handleChange} />
-                </div>
-              </div>
-
-              <div className='field'>
-                <label className='label'>Email</label>
-                <div className='control'>
-                  <input className='input' type='email' placeholder='Email' name='email' id='email' onChange={this.handleChange} />
-                </div>
-              </div>
-
-              <div className='field'>
-                <label className='label'>Message</label>
-                <div className='control'>
-                  <textarea className='textarea' placeholder='Message' name='message' id='message' rows='6' onChange={this.handleChange} />
-                </div>
-              </div>
-
-              <div className='field is-grouped is-pulled-right'>
-                <div className='control'>
-                  <button className='button is-text' type='reset'>Cancel</button>
-                </div>
-                <div className='control'>
-                  <button className='button is-primary' type='submit' disabled={(!this.state.name) || (!this.state.email) || (!this.state.message)}>Submit</button>
-                </div>
-              </div>
+            <form name='contact' method='POST' data-netlify='true'>
+              <p>
+                <label>Your Name: <input type='text' name='name' /></label>
+              </p>
+              <p>
+                <label>Your Email: <input type='email' name='email' /></label>
+              </p>
+              <p>
+                <label>Your Role: <select name='role[]' multiple>
+                  <option value='leader'>Leader</option>
+                  <option value='follower'>Follower</option>
+                </select></label>
+              </p>
+              <p>
+                <label>Message: <textarea name='message' /></label>
+              </p>
+              <p>
+                <button type='submit'>Send</button>
+              </p>
             </form>
           </div>
         </section>
