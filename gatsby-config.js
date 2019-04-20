@@ -84,7 +84,7 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-google-tagmanager`,
+      resolve: 'gatsby-plugin-google-tagmanager',
       options: {
         id: config.googleTagManagerID,
         includeInDevelopment: false,
@@ -113,7 +113,7 @@ module.exports = {
         ],
       },
     },
-    `gatsby-plugin-offline`,
+    'gatsby-plugin-offline',
     {
       resolve: 'gatsby-plugin-feed',
       options: {
@@ -189,7 +189,7 @@ module.exports = {
       },
     },
     {
-      resolve: `@gatsby-contrib/gatsby-plugin-elasticlunr-search`,
+      resolve: '@gatsby-contrib/gatsby-plugin-elasticlunr-search',
       options: {
         // Fields to index
         fields: [`title`, `tags`],
@@ -204,6 +204,6 @@ module.exports = {
         },
       },
     },
-    `gatsby-plugin-netlify`,
+    'gatsby-plugin-netlify',
   ],
 }
