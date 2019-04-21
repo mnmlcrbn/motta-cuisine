@@ -1,7 +1,7 @@
 ---
 templateKey: about-page
-title: About Us
-meta_title: About Us | Motta Cuisine
+title: About Motta Cuisine
+meta_title: About | Motta Cuisine
 secondary_heading: Our Story
 about_main: /img/about-main.jpg
 ralph: /img/ralph-motta.jpg

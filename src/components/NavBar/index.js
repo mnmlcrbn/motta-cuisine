@@ -49,7 +49,7 @@ const NavBar = ({toggleNavbar, isActive}) => (
                 <div className='field is-grouped'>
                   <p className='control'>
                     <Link
-                      className='button is-outlined'
+                      className='button mc-contact__btn is-outlined'
                       to='/contact'>
                               Contact Us
                     </Link>

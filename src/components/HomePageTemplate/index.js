@@ -1,7 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import Testimonials from '../Testimonials'
 import PropTypes from 'prop-types'
+import { Link } from 'gatsby';
 
 const HomePageTemplate = ({
   title,
@@ -10,7 +10,6 @@ const HomePageTemplate = ({
   intro_img,
   meta_title,
   meta_description,
-  testimonials,
   secondary_branding,
 }) => (
   <div>
@@ -28,6 +27,7 @@ const HomePageTemplate = ({
             <div className=''>
               <div>
                 <p className='mc-intro__copy'>{description}</p>
+                <button className='mc-intro__btn'><Link to='/about'>Read our story <span className='arrow'>→</span></Link></button>
               </div>
             </div>
           </div>
@@ -42,7 +42,7 @@ const HomePageTemplate = ({
         <div className='container'>
           <div className='columns'>
             <div className='column'>
-              <h2 className='is-size-2'>Testimonials</h2>
+              <h2 className='is-size-2'>Updates</h2>
               <hr />
             </div>
             <div className='column'>
