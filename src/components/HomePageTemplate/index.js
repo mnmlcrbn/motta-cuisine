@@ -32,7 +32,7 @@ const HomePageTemplate = ({
             </div>
           </div>
           <div className='column is-4 is-offset-1'>
-            <img src={intro_img} />
+            <img alt='Motta Cuisine Shrimp with dip' src={intro_img} />
           </div>
         </div>
       </div>
@@ -46,7 +46,7 @@ const HomePageTemplate = ({
               <hr />
             </div>
             <div className='column'>
-              <img src={secondary_branding} />
+              <img alt='Motta Cuisine secondary branding' src={secondary_branding} />
             </div>
           </div>
         </div>
