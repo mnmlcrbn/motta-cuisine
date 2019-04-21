@@ -4,31 +4,41 @@ import {Link} from 'gatsby'
 const PostCard = ({posts}) => {
   return (
     <div className='container'>
-      {posts
-        .filter(post => post.node.frontmatter.templateKey === 'article-page')
-        .map(({node: post}) => (
-          <div
-            className='content'
-            style={{border: '1px solid #eaecee', padding: '2em 4em'}}
-            key={post.id}
-          >
-            <p>
-              <Link className='has-text-primary' to={post.fields.slug}>
-                {post.frontmatter.title}
-              </Link>
-              <span> &bull; </span>
-              <small>{post.frontmatter.date}</small>
-            </p>
-            <p>
-              {post.excerpt}
-              <br />
-              <br />
-              <Link className='button is-small' to={post.fields.slug}>
-                                Keep Reading →
-              </Link>
-            </p>
-          </div>
-        ))}
+      <div className='columns'>
+        <div className='column is-10'>
+          {posts
+            .filter(post => post.node.frontmatter.templateKey === 'article-page')
+            .map(({node: post}) => (
+              <div
+                className='content'
+                key={post.id}
+              >
+                <div className='columns'>
+                  <div className='column is-4'>
+                    <img src={post.frontmatter.cover} />
+                  </div>
+                  <div className='column'>
+                    <p>
+                      <Link className='has-text-primary' to={post.fields.slug}>
+                        {post.frontmatter.title}
+                      </Link>
+                      <span> &bull; </span>
+                      <small>{post.frontmatter.date}</small>
+                    </p>
+                    <p>
+                      {post.excerpt}
+                      <br />
+                      <br />
+                      <Link className='button is-small' to={post.fields.slug}>
+                                        Keep Reading →
+                      </Link>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            ))}
+        </div>
+      </div>
     </div>
   )
 }

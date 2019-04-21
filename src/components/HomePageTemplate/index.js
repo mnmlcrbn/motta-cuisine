@@ -1,7 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import PropTypes from 'prop-types'
-import { Link } from 'gatsby';
+import { Link } from 'gatsby'
 
 const HomePageTemplate = ({
   title,
@@ -44,6 +44,7 @@ const HomePageTemplate = ({
             <div className='column'>
               <h2 className='is-size-2'>Updates</h2>
               <hr />
+
             </div>
             <div className='column'>
               <img alt='Motta Cuisine secondary branding' src={secondary_branding} />

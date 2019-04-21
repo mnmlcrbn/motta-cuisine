@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className='motta-footer'>
       <div className='container'>
-        <div className='content'>
+        <div className='section'>
           <p>
             {config.copyright}
           </p>

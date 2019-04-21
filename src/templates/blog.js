@@ -47,6 +47,9 @@ export default class BlogPage extends Component {
         </Helmet>
 
         <section className='section'>
+          <div className='container'>
+            <h1 className='mc-heading'>Food Journal</h1>
+          </div>
           <PostCard posts={group} />
           <section className='section'>
             <div className='buttons is-centered'>
