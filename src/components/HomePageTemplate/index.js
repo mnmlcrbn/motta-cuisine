@@ -63,7 +63,6 @@ HomePageTemplate.propTypes = {
   secondary_branding: PropTypes.string,
   heading: PropTypes.string,
   description: PropTypes.string,
-  testimonials: PropTypes.array,
 
 }
 
