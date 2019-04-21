@@ -36,16 +36,6 @@ export const pricingPageQuery = graphql`
         title
         meta_title
         meta_description
-        pricing {
-          heading
-          description
-          plans {
-            description
-            items
-            plan
-            price
-          }
-        }
       }
     }
   }
