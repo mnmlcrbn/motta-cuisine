@@ -3,7 +3,7 @@ templateKey: article-page
 title: 'DREAMING OF WAHOO, YET SETTLING FOR MAHI'
 slug: dreaming-of-wahoo
 date: 2019-04-21T19:35:12.039Z
-cover: /img/products-grid3.jpg
+cover: /img/wahoo-1.jpg
 tags:
   - motta
 meta_title: 'DREAMING OF WAHOO, YET SETTLING FOR MAHI'
@@ -31,7 +31,7 @@ Recently I was approached with the opportunity to cater alongside two local chef
 
 Even though I had grown up on a goat farm and I knew my signature dish for the evening would be roast goat, there was something intriguing about that wahoo. Something to do with the versatility of its flaky white flesh and its ability to be prepared at different temperatures that truly caught my eye.
 
- 
+ ![Mahi Plating](/img/wahoo-2.jpg "Mahi plating")
 
 It was not until about a week later while I was considering ideas for plating that I had my eureka moment. As an artist I have always been intrigued by modern art, and as such I tend to enjoy the clean crisp look of minimalism. It was in that moment that I decided my Wahoo dish would be constructed of elements borrowed from both my artistic and my culinary backgrounds.
 

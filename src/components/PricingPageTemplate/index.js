@@ -27,10 +27,15 @@ const PricingPageTemplate = ({
                 <h5 className='press-title'>Culinary Consulting</h5>
                 <p className='press-link'>Meal Planning<br />Private Chef Service<br />Bartending</p>
               </div>
+              <a href='/contact'>
+                <div className='mc-intro__btn'>
+                  Contact us for you next event!<span className='arrow'>→</span>
+                </div>
+              </a>
             </div>
           </div>
           <div className='column is-6'>
-            <p>Image</p>
+            <img alt='Motta Cuisine Event' src='/img/services-img.jpg' />
           </div>
         </div>
       </div>

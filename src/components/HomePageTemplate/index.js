@@ -27,7 +27,11 @@ const HomePageTemplate = ({
             <div className=''>
               <div>
                 <p className='mc-intro__copy'>{description}</p>
-                <Link to='/about'><button className='mc-intro__btn'>Read our story <span className='arrow'>→</span></button></Link>
+                <Link to='/about'>
+                  <div className='mc-intro__btn'>
+                    Read our story <span className='arrow'>→</span>
+                  </div>
+                </Link>
               </div>
             </div>
           </div>
@@ -46,10 +50,13 @@ const HomePageTemplate = ({
               <hr />
               <div className='columns'>
                 <div className='column is-4'>
-                  <img src='/img/about-main.jpg' />
+                  <img alt='Mahi plating' src='/img/wahoo-1.jpg' />
                 </div>
                 <div className='column'>
-                  <p>info</p>
+                  <p>
+                    <a className='has-text-primary' href='/journal/dreaming-of-wahoo/'>DREAMING OF WAHOO, YET SETTLING FOR MAHI</a><span> • </span><small>April 21, 2019</small>
+                  </p>
+                  <p>As a chef have you ever been so obsessed with a certain ingredient that it seemed as though the world may end or that the day would not go on if that specific ingredient didn’t magically manifest itself in your presence in that moment? …No? REALLY? Oh well it happened to me. </p>
                 </div>
               </div>
             </div>

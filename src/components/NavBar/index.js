@@ -30,21 +30,22 @@ const NavBar = ({toggleNavbar, isActive}) => (
           <div className={`navbar-menu ${isActive ? 'is-active' : ''}`} id='navMenu'>
 
             <div className='navbar-end'>
+              <Link className='navbar-item' to='/about'>
+                             Our Story
+              </Link>
               <Link className='navbar-item' to='/services'>
                               Services
               </Link>
-              <Link className='navbar-item' to='/about'>
-                              About
+              <Link className='navbar-item' to='/journal'>
+                              Food Journal
               </Link>
               <Link className='navbar-item' to='/gallery'>
                               Gallery
               </Link>
               <Link className='navbar-item' to='/press'>
-                              Press
+                              Our Press
               </Link>
-              <Link className='navbar-item' to='/journal'>
-                              Food Journal
-              </Link>
+              
               <div className='navbar-item'>
                 <div className='field is-grouped'>
                   <p className='control'>
