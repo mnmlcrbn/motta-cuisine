@@ -21,11 +21,11 @@ const PricingPageTemplate = ({
             <div className=''>
               <div className='press-holder'>
                 <h5 className='press-title'>Catering</h5>
-                <p className='press-link'>Private Events<br />Wedding Catering</p>
+                <p className='press-link'>Private Events<br />Wedding<br />Corporate Functions <br /> Villa dining</p>
               </div>
               <div className='press-holder'>
                 <h5 className='press-title'>Culinary Consulting</h5>
-                <p className='press-link'>Meal Planning<br />Private Chef Service</p>
+                <p className='press-link'>Meal Planning<br />Private Chef Service<br />Bartending</p>
               </div>
             </div>
           </div>
