@@ -18,7 +18,16 @@ const PricingPageTemplate = ({
         <h1 className='mc-heading'>{title}</h1>
         <div className='columns'>
           <div className='column is-6'>
-            <p>Services</p>
+            <div className=''>
+              <div className='press-holder'>
+                <h5 className='press-title'>Catering</h5>
+                <p className='press-link'>Private Events<br />Wedding Catering</p>
+              </div>
+              <div className='press-holder'>
+                <h5 className='press-title'>Culinary Consulting</h5>
+                <p className='press-link'>Meal Planning<br />Private Chef Service</p>
+              </div>
+            </div>
           </div>
           <div className='column is-6'>
             <p>Image</p>
