@@ -8,7 +8,7 @@ import Layout from '../components/Layout'
 const PaginationLink = props => {
   if (!props.test) {
     return (
-      <Link to={`/blog/${props.url}`} className='button is-rounded'>
+      <Link to={`/journal/${props.url}`} className='button is-rounded'>
         {props.text}
       </Link>
     )
@@ -39,7 +39,7 @@ export default class BlogPage extends Component {
     return (
       <Layout>
         <Helmet>
-          <title>Blog | Gatsby Starter Business</title>
+          <title>Food Journal | Motta Cuisine</title>
           {/* Schema.org tags */}
           <script type='application/ld+json'>
             {JSON.stringify(websiteSchemaOrgJSONLD)}

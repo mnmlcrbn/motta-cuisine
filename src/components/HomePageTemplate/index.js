@@ -27,7 +27,7 @@ const HomePageTemplate = ({
             <div className=''>
               <div>
                 <p className='mc-intro__copy'>{description}</p>
-                <button className='mc-intro__btn'><Link to='/about'>Read our story <span className='arrow'>→</span></Link></button>
+                <Link to='/about'><button className='mc-intro__btn'>Read our story <span className='arrow'>→</span></button></Link>
               </div>
             </div>
           </div>
@@ -44,7 +44,14 @@ const HomePageTemplate = ({
             <div className='column'>
               <h2 className='is-size-2'>Updates</h2>
               <hr />
-
+              <div className='columns'>
+                <div className='column is-4'>
+                  <img src='/img/about-main.jpg' />
+                </div>
+                <div className='column'>
+                  <p>info</p>
+                </div>
+              </div>
             </div>
             <div className='column'>
               <img alt='Motta Cuisine secondary branding' src={secondary_branding} />
