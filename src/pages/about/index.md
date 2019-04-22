@@ -2,6 +2,9 @@
 templateKey: about-page
 title: About Motta Cuisine
 meta_title: About | Motta Cuisine
+ralph: /img/ralph-motta.jpg
+about_main: /img/about-main.jpg
+about_callout: We take pride in crafting unique dining experience for all of our clients no matter the budget.
 meta_description: >-
   In the Spring of 2014 Motta Cuisine was launched in the heart of Spanish
   Harlem with the help of fellow Crucians. From its launch MC Executive Chef
