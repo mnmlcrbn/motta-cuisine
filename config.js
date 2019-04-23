@@ -2,7 +2,7 @@ module.exports = {
   siteTitle: 'Motta Cuisine', // Site title.
   siteTitleAlt: 'Modern Crucian Cuisine', // Alternative site title for SEO.
   siteLogo: '/icons/icon-512x512.png', // Logo used for SEO and manifest.
-  siteUrl: 'https://www.mottacuisine.com/', // Domain of your website without pathPrefix.
+  siteUrl: 'http://www.mottacuisine.com/', // Domain of your website without pathPrefix.
   pathPrefix: '/', // Prefixes all links. For cases when deployed to example.github.io/gatsby-starter-business/.
   siteDescription: 'Motta Cuisine is a boutique catering company located on the big island of St. Croix. Our company specializing in Wedding Catering, Private Chef Services and all types of Event Catering. We take pride in crafting unique dining experience for all of our clients no matter the budget.', // Website description used for RSS feeds/meta description tag.
   siteRss: '/rss.xml',
