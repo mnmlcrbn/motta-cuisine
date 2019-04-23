@@ -29,7 +29,7 @@ const PricingPageTemplate = ({
               </div>
               <a href='/contact'>
                 <div className='mc-intro__btn'>
-                  Contact us for you next event!<span className='arrow'>→</span>
+                  Chose us for your next event!<span className='arrow'>→</span>
                 </div>
               </a>
             </div>
