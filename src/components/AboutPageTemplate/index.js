@@ -13,8 +13,8 @@ const AboutPageTemplate = ({
 }) => (
   <div>
     <Helmet>
-      <title>{meta_title}</title>
-      <meta name='description' content={meta_description} />
+      <title>Our Story | Motta Cuisine</title>
+      <meta name='description' content='Motta Cuisine is a boutique catering company located on the big island of St. Croix. Our company specializing in Wedding Catering, Private Chef Services and all types of Event Catering. We take pride in crafting unique dining experience for all of our clients no matter the budget.' />
     </Helmet>
     <section className='section section--gradient'>
       <div className='container'>
@@ -32,7 +32,7 @@ const AboutPageTemplate = ({
               <div className='column is-6'>
                 <h3 className='mc-secondary__heading'>Ralph Motta</h3>
                 <ul>
-                  <li>Culinary Ambassodor of the U.S.V.I</li>
+                  <li>Culinary Ambassador of the U.S.V.I</li>
                   <li>Executive Chef </li>
                   <li>Creative Director</li>
                 </ul>
