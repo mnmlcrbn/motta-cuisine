@@ -86,6 +86,9 @@ class ContactPageTemplate extends Component {
                   </div>
                 </form>
               </div>
+              <div className='column is-5 is-offset-1'>
+                <img src='/img/contact-us.jpg' />
+              </div>
             </div>
           </div>
         </section>
