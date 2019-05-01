@@ -3,7 +3,7 @@ templateKey: home-page
 title: Motta Cuisine
 heading: Modern Crucian Cuisine
 description: >-
-  Motta Cuisine is a boutique catering company located on the big island of St. Croix. Our company specializing in Wedding Catering, Private Chef Services and all types of Event Catering. We take pride in crafting unique dining experience for all of our clients no matter the budget.
+  Motta Cuisine is a boutique catering company located on the big island of St. Croix. Our company specializes in Wedding Catering, Private Chef Services and all types of Event Catering. We take pride in crafting a unique dining experience for every client no matter the budget.
 testimonials:
   - author: Vaibhav Sharma
     quote: >-
@@ -19,6 +19,6 @@ meta_title: Home | Motta Cuisine
 intro_img: /img/intro-img.jpg
 secondary_branding: /img/motta-branding.png
 meta_description: >-
-  Motta Cuisine is a boutique catering company located on the big island of St. Croix. Our company specializing in Wedding Catering, Private Chef Services and all types of Event Catering. We take pride in crafting unique dining experience for all of our clients no matter the budget.
+   Motta Cuisine is a boutique catering company located on the big island of St. Croix. Our company specializes in Wedding Catering, Private Chef Services and all types of Event Catering. We take pride in crafting a unique dining experience for every client no matter the budget.
 ---
 
