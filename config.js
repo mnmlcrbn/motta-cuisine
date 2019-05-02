@@ -7,7 +7,7 @@ module.exports = {
   siteDescription: 'Motta Cuisine is a boutique catering company located on the big island of St. Croix. Our company specializing in Wedding Catering, Private Chef Services and all types of Event Catering. We take pride in crafting unique dining experience for all of our clients no matter the budget.', // Website description used for RSS feeds/meta description tag.
   siteRss: '/rss.xml',
   siteFBAppID: '', // FB Application ID for using app insights
-  googleTagManagerID: 'UA-61352505-1', // GTM tracking ID.
+  googleTagManagerID: 'GTM-W2JW3MX', // GTM tracking ID.
   disqusShortname: 'gatsby-business-starter', // Disqus shortname.
   userName: 'Vaibhav Sharma',
   userTwitter: 'vaibhaved',
